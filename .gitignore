@@ -27,3 +27,8 @@ imgui.ini
 *.exp
 *.lib
 !**/third_party/**
+
+# Local noise
+runlog.txt
+**/__pycache__/
+*.pyc
