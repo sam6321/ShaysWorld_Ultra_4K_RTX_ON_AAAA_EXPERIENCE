@@ -19,20 +19,23 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Vulkan SDK
-        uses: humbletim/setup-vulkan-sdk@v1.2.1
+      # Official LunarG SDK (prebuilt glslangValidator) — avoids building Glslang
+      # from source, which keeps failing ENABLE_OPT / SPIRV-Tools configure.
+      - name: Install Vulkan SDK
+        uses: humbletim/install-vulkan-sdk@v1.2
         with:
-          vulkan-query-version: 1.3.296.0
-          # Glslang ENABLE_OPT requires SPIRV-Tools (+ Headers) at configure time.
-          vulkan-components: Vulkan-Headers, Vulkan-Loader, Glslang, SPIRV-Tools, SPIRV-Headers
-          vulkan-use-cache: true
+          version: 1.3.296.0
+          cache: true
 
-      - name: Verify glslangValidator
+      - name: Verify toolchain
         shell: pwsh
         run: |
           Write-Host "VULKAN_SDK=$env:VULKAN_SDK"
+          Write-Host "VULKAN_SDK_VERSION=$env:VULKAN_SDK_VERSION"
+          if (-not $env:VULKAN_SDK) { throw "VULKAN_SDK not set" }
           Get-Command glslangValidator -ErrorAction Stop
           glslangValidator -v
+          cmake --version
 
       - name: Configure
         shell: pwsh
