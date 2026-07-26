@@ -1,6 +1,7 @@
-# Package a portable Shays World VK zip.
+# Package a portable Shays World VK archive.
 # Invoked via: cmake --build . --config Release --target package_release
-# Or: cmake -DSHAYS_EXE=... -DSHAYS_ASSETS=... -DSHAYS_SHADERS=... -DSHAYS_OUT_DIR=... -P scripts/package_release.cmake
+# Or: cmake -DSHAYS_EXE=... -DSHAYS_ASSETS=... -DSHAYS_SHADERS=... -DSHAYS_OUT_DIR=...
+#            -DSHAYS_PACKAGE_NAME=shays-world-vk-windows.zip -P scripts/package_release.cmake
 
 if(NOT SHAYS_EXE OR NOT EXISTS "${SHAYS_EXE}")
   message(FATAL_ERROR "SHAYS_EXE missing or not found: '${SHAYS_EXE}'")
@@ -14,6 +15,13 @@ endif()
 if(NOT SHAYS_OUT_DIR)
   set(SHAYS_OUT_DIR "${CMAKE_CURRENT_BINARY_DIR}/dist")
 endif()
+if(NOT SHAYS_PACKAGE_NAME)
+  if(WIN32)
+    set(SHAYS_PACKAGE_NAME "shays-world-vk-windows.zip")
+  else()
+    set(SHAYS_PACKAGE_NAME "shays-world-vk-linux-x86_64.zip")
+  endif()
+endif()
 
 set(STAGE "${SHAYS_OUT_DIR}/shays-world-vk")
 file(REMOVE_RECURSE "${STAGE}")
@@ -21,7 +29,6 @@ file(MAKE_DIRECTORY "${STAGE}")
 file(MAKE_DIRECTORY "${STAGE}/shaders")
 file(MAKE_DIRECTORY "${STAGE}/assets")
 
-get_filename_component(_exe_name "${SHAYS_EXE}" NAME)
 file(COPY "${SHAYS_EXE}" DESTINATION "${STAGE}")
 file(COPY "${SHAYS_SHADERS}/" DESTINATION "${STAGE}/shaders")
 file(COPY "${SHAYS_ASSETS}/" DESTINATION "${STAGE}/assets")
@@ -44,9 +51,16 @@ L             force walkway lamps (Quality)
 Esc           quit
 
 Requires a Vulkan 1.2+ GPU and recent drivers.
+Linux footsteps use aplay or paplay if available.
 ")
 
-set(ZIP_PATH "${SHAYS_OUT_DIR}/shays-world-vk-windows.zip")
+# Ensure the binary is executable in the staged tree (Linux).
+get_filename_component(_exe_name "${SHAYS_EXE}" NAME)
+if(NOT WIN32)
+  execute_process(COMMAND chmod +x "${STAGE}/${_exe_name}")
+endif()
+
+set(ZIP_PATH "${SHAYS_OUT_DIR}/${SHAYS_PACKAGE_NAME}")
 file(REMOVE "${ZIP_PATH}")
 
 execute_process(

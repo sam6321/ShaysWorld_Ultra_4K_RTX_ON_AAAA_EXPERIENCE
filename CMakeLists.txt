@@ -136,6 +136,11 @@ add_custom_command(TARGET shays_vk POST_BUILD
   COMMENT "Copying shaders + assets next to shays_vk")
 
 # Convenience target: zip a redistributable next to the binary.
+if(WIN32)
+  set(_SHAYS_PKG_NAME "shays-world-vk-windows.zip")
+else()
+  set(_SHAYS_PKG_NAME "shays-world-vk-linux-x86_64.zip")
+endif()
 add_custom_target(package_release
   COMMAND ${CMAKE_COMMAND}
     -DSHAYS_EXE=$<TARGET_FILE:shays_vk>
@@ -143,6 +148,7 @@ add_custom_target(package_release
     -DSHAYS_SHADERS=${SHADER_OUT_DIR}
     -DSHAYS_OUT_DIR=${CMAKE_BINARY_DIR}/dist
     -DSHAYS_README=${CMAKE_SOURCE_DIR}/README.md
+    -DSHAYS_PACKAGE_NAME=${_SHAYS_PKG_NAME}
     -P ${CMAKE_SOURCE_DIR}/scripts/package_release.cmake
   DEPENDS shays_vk
   COMMENT "Packaging Shays World VK release zip"

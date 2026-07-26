@@ -69,11 +69,81 @@ jobs:
           path: build/dist/shays-world-vk-windows.zip
           if-no-files-found: error
 
-      - name: Publish GitHub Release
-        if: startsWith(github.ref, 'refs/tags/')
+  linux:
+    name: Linux Release
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install build deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            build-essential cmake ninja-build pkg-config \
+            libx11-dev libxi-dev libxcursor-dev libxinerama-dev libxrandr-dev \
+            libxkbcommon-dev libwayland-dev wayland-protocols \
+            alsa-utils
+
+      - name: Install Vulkan SDK
+        uses: humbletim/install-vulkan-sdk@v1.2
+        with:
+          version: 1.3.296.0
+          cache: true
+
+      - name: Verify toolchain
+        run: |
+          echo "VULKAN_SDK=$VULKAN_SDK"
+          echo "VULKAN_SDK_VERSION=$VULKAN_SDK_VERSION"
+          test -n "$VULKAN_SDK"
+          command -v glslangValidator
+          glslangValidator -v
+          cmake --version
+
+      - name: Configure
+        run: |
+          cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
+
+      - name: Build
+        run: |
+          cmake --build build --target shays_vk --parallel
+
+      - name: Package zip
+        run: |
+          cmake --build build --target package_release
+          ls -lh build/dist/shays-world-vk-linux-x86_64.zip
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: shays-world-vk-linux-x86_64
+          path: build/dist/shays-world-vk-linux-x86_64.zip
+          if-no-files-found: error
+
+  release:
+    name: Publish GitHub Release
+    needs: [windows, linux]
+    if: startsWith(github.ref, 'refs/tags/')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download Windows zip
+        uses: actions/download-artifact@v4
+        with:
+          name: shays-world-vk-windows
+          path: dist
+
+      - name: Download Linux zip
+        uses: actions/download-artifact@v4
+        with:
+          name: shays-world-vk-linux-x86_64
+          path: dist
+
+      - name: Publish
         uses: softprops/action-gh-release@v2
         with:
-          files: build/dist/shays-world-vk-windows.zip
+          files: |
+            dist/shays-world-vk-windows.zip
+            dist/shays-world-vk-linux-x86_64.zip
           generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

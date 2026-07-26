@@ -19,24 +19,39 @@ Original GLUT / display-list sources are **not** linked at runtime. They remain 
 
 ## Requirements
 
-- Windows x64 (CI builds Windows Release zips)
+- Windows x64 or Linux x86_64
 - GPU + drivers with **Vulkan 1.2+** (descriptor indexing)
 - [Vulkan SDK](https://vulkan.lunarg.com/) to build (needs `glslangValidator`)
+- Linux build deps: X11 / Wayland GLFW deps (`libx11-dev`, `libxi-dev`, …)
 
 ## Quick start (players)
 
-1. Download **shays-world-vk-windows.zip** from [Releases](../../releases) or Actions artifacts.
-2. Unzip and run `shays_vk.exe`.
+1. Download **shays-world-vk-windows.zip** or **shays-world-vk-linux-x86_64.zip** from [Releases](../../releases) or Actions artifacts.
+2. Unzip and run `shays_vk.exe` (Windows) or `./shays_vk` (Linux).
 3. See `CONTROLS.txt` in the zip.
 
+Linux footsteps need `aplay` (alsa-utils) or `paplay` installed.
+
 ## Build from source
+
+Windows:
 
 ```bat
 cmake -S . -B build -G "Visual Studio 17 2022" -A x64
 cmake --build build --config Release --target shays_vk
 ```
 
-The binary lands in `build/Release/` with `assets/` and `shaders/` copied beside it.
+Linux:
+
+```bash
+sudo apt install build-essential cmake ninja-build pkg-config \
+  libx11-dev libxi-dev libxcursor-dev libxinerama-dev libxrandr-dev \
+  libxkbcommon-dev libwayland-dev wayland-protocols
+cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
+cmake --build build --target shays_vk
+```
+
+The binary lands in the build output dir with `assets/` and `shaders/` copied beside it.
 
 ### Package a redistributable zip
 
@@ -50,12 +65,12 @@ Or:
 powershell -File scripts/package-release.ps1
 ```
 
-Output: `build/dist/shays-world-vk-windows.zip`
+Output: `build/dist/shays-world-vk-windows.zip` or `shays-world-vk-linux-x86_64.zip`
 
 ### GitHub Actions
 
-Push to `main` / open a PR → Windows Release build + zip artifact.  
-Tag `v*` → same zip attached to a GitHub Release.
+Push to `main` / open a PR → Windows + Linux Release builds + zip artifacts.  
+Tag `v*` → both zips attached to a GitHub Release.
 
 ## Controls
 
