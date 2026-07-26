@@ -1,0 +1,1946 @@
+[
+  {
+    "name": "ABOVE_CHANC_EDGE",
+    "texture": "textures/above_chanc_edge.rgb",
+    "width": 128,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "ABOVE_CHANC_TEXT",
+    "texture": "textures/above_chanc_text.rgb",
+    "width": 128,
+    "height": 1024,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "ABOVE_CHANC_TEXT_2",
+    "texture": "textures/above_chanc_text_2.rgb",
+    "width": 128,
+    "height": 1024,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "ABOVE_CHANC_TEXT_3",
+    "texture": "textures/above_chanc_text_3.rgb",
+    "width": 128,
+    "height": 1024,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "ABOVE_LIB",
+    "texture": "textures/above_lib.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "ABOVE_LIB_TEXT",
+    "texture": "textures/above_lib_text.rgb",
+    "width": 1024,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "ABOVE_LIB_TEXT_2",
+    "texture": "textures/above_lib_text_2.rgb",
+    "width": 1024,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "ABOVE_PHYS_SCI_TEXT",
+    "texture": "textures/above_phys_sci_text.rgb",
+    "width": 256,
+    "height": 1024,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "ABOVE_TICKETS_TEXT",
+    "texture": "textures/above_tickets_text.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "ABOVE_UNDER_4B",
+    "texture": "textures/above_under_4b.rgb",
+    "width": 256,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "ABOVE_UNDER_POSTS",
+    "texture": "textures/above_under_posts.rgb",
+    "width": 128,
+    "height": 256,
+    "metallic": 0.6,
+    "roughness": 0.45,
+    "category": "metal"
+  },
+  {
+    "name": "ABOVE_UNDER_POSTS_2",
+    "texture": "textures/above_under_posts_2.rgb",
+    "width": 128,
+    "height": 256,
+    "metallic": 0.6,
+    "roughness": 0.45,
+    "category": "metal"
+  },
+  {
+    "name": "ABOVE_WINDOW_BLOCK",
+    "texture": "textures/above_window_block.rgb",
+    "width": 128,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "ABOVE_WINDOW_BLOCK_2",
+    "texture": "textures/above_window_block_2.rgb",
+    "width": 128,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "ABOVE_WINDOW_BLOCK_3",
+    "texture": "textures/above_window_block_3.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "ABOVE_WINDOW_BLOCK_CHANC",
+    "texture": "textures/above_window_block_chanc.rgb",
+    "width": 128,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "ABOVE_WINDOW_BLOCK_XY_3",
+    "texture": "textures/above_window_block_xy_3.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "ABOVE_WINDOW_EDGE_3B",
+    "texture": "textures/above_window_edge_3b.rgb",
+    "width": 128,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "ABOVE_WINDOW_EDGE_3B_LIB",
+    "texture": "textures/above_window_edge_3b_lib.rgb",
+    "width": 256,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "ABOVE_WINDOW_EDGE_4B_LIB",
+    "texture": "textures/above_window_edge_4b_lib.rgb",
+    "width": 256,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "ABOVE_WINDOW_UNDER_LIB",
+    "texture": "textures/above_window_under_lib.rgb",
+    "width": 256,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "BELOW_ROOF_FILL",
+    "texture": "textures/below_roof_fill.rgb",
+    "width": 128,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.8,
+    "category": "roof"
+  },
+  {
+    "name": "BENCH_EDGE",
+    "texture": "textures/bench_edge.rgb",
+    "width": 64,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "BENCH_EDGE_2",
+    "texture": "textures/bench_edge_2.rgb",
+    "width": 64,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "BENCH_EDGE_3",
+    "texture": "textures/bench_edge_3.rgb",
+    "width": 64,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "BENCH_EDGE_SIDE",
+    "texture": "textures/bench_edge_side.rgb",
+    "width": 64,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "BENCH_EDGE_TOP",
+    "texture": "textures/bench_edge_top.rgb",
+    "width": 64,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "BENCH_EDGE_TOP_2",
+    "texture": "textures/bench_edge_top_2.rgb",
+    "width": 64,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "BENCH_SIDE",
+    "texture": "textures/bench_side.rgb",
+    "width": 64,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "BENCH_SIDE_2",
+    "texture": "textures/bench_side_2.rgb",
+    "width": 64,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "BENCH_TOP",
+    "texture": "textures/bench_top.rgb",
+    "width": 64,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "CARPET",
+    "texture": "textures/carpet.rgb",
+    "width": 32,
+    "height": 32,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "CHANC_DOOR_1",
+    "texture": "textures/chanc_door_1.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "CHANC_DOOR_2",
+    "texture": "textures/chanc_door_2.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "COFFEE_MACHINE",
+    "texture": "textures/coffee_machine.rgb",
+    "width": 128,
+    "height": 256,
+    "metallic": 0.6,
+    "roughness": 0.45,
+    "category": "metal"
+  },
+  {
+    "name": "COKE_MACHINE",
+    "texture": "textures/coke_machine.rgb",
+    "width": 128,
+    "height": 256,
+    "metallic": 0.6,
+    "roughness": 0.45,
+    "category": "metal"
+  },
+  {
+    "name": "COUNTER_SIDE",
+    "texture": "textures/counter_side.rgb",
+    "width": 4,
+    "height": 16,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "COUNTER_TOP",
+    "texture": "textures/counter_top.rgb",
+    "width": 1,
+    "height": 1,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "CO_SIGN",
+    "texture": "textures/co_sign.rgb",
+    "width": 256,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "DOGE",
+    "texture": "textures/doge.rgb",
+    "width": 1920,
+    "height": 1080,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "DOORPAVE_1",
+    "texture": "textures/doorpave_1.rgb",
+    "width": 128,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.7,
+    "category": "pavement"
+  },
+  {
+    "name": "DOOR_POST_CHANC",
+    "texture": "textures/door_post_chanc.rgb",
+    "width": 1024,
+    "height": 128,
+    "metallic": 0.6,
+    "roughness": 0.45,
+    "category": "metal"
+  },
+  {
+    "name": "DOOR_POST_LIB",
+    "texture": "textures/door_post_lib.rgb",
+    "width": 512,
+    "height": 64,
+    "metallic": 0.6,
+    "roughness": 0.45,
+    "category": "metal"
+  },
+  {
+    "name": "DOOR_POST_SECURITY",
+    "texture": "textures/door_post_security.rgb",
+    "width": 1024,
+    "height": 128,
+    "metallic": 0.6,
+    "roughness": 0.45,
+    "category": "metal"
+  },
+  {
+    "name": "DOOR_SIDEPOST_CHANC",
+    "texture": "textures/door_sidepost_chanc.rgb",
+    "width": 64,
+    "height": 1024,
+    "metallic": 0.6,
+    "roughness": 0.45,
+    "category": "metal"
+  },
+  {
+    "name": "DRINKS_EDGE",
+    "texture": "textures/drinks_edge.rgb",
+    "width": 16,
+    "height": 2,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "DRINKS_SIDE",
+    "texture": "textures/drinks_side.rgb",
+    "width": 64,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "DRINKS_SIDE_2",
+    "texture": "textures/drinks_side_2.rgb",
+    "width": 64,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "DRINKS_TOP",
+    "texture": "textures/drinks_top.rgb",
+    "width": 64,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "ENTRANCE",
+    "texture": "textures/entrance.rgb",
+    "width": 512,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "ENTRANCE_2",
+    "texture": "textures/entrance_2.rgb",
+    "width": 512,
+    "height": 512,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "EXIT_EAST",
+    "texture": "textures/exit_east.rgb",
+    "width": 512,
+    "height": 512,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "EXIT_WEST",
+    "texture": "textures/exit_west.rgb",
+    "width": 1920,
+    "height": 1080,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "GLASS_BOARD",
+    "texture": "textures/glass_board.rgb",
+    "width": 512,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "GLASS_BOARD_2",
+    "texture": "textures/glass_board_2.rgb",
+    "width": 512,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "GLASS_BOARD_3",
+    "texture": "textures/glass_board_3.rgb",
+    "width": 512,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "GLASS_B_SIDE",
+    "texture": "textures/glass_b_side.rgb",
+    "width": 2,
+    "height": 16,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "GRASS",
+    "texture": "textures/grass.rgb",
+    "width": 64,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.85,
+    "category": "grass"
+  },
+  {
+    "name": "GRASS_2",
+    "texture": "textures/grass_2.rgb",
+    "width": 64,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.85,
+    "category": "grass"
+  },
+  {
+    "name": "GS_SIGN",
+    "texture": "textures/gs_sign.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "GS_SIGN_2",
+    "texture": "textures/gs_sign_2.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "GS_SIGN_EDGE",
+    "texture": "textures/gs_sign_edge.rgb",
+    "width": 256,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "KBLT",
+    "texture": "textures/kblt.rgb",
+    "width": 512,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "KBLT_EDGE",
+    "texture": "textures/kblt_edge.rgb",
+    "width": 16,
+    "height": 32,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "KBLT_EDGE_2",
+    "texture": "textures/kblt_edge_2.rgb",
+    "width": 32,
+    "height": 16,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "KBLT_EDGE_CORNER",
+    "texture": "textures/kblt_edge_corner.rgb",
+    "width": 1,
+    "height": 1,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "KBLT_SIDE_1",
+    "texture": "textures/kblt_side_1.rgb",
+    "width": 2,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "KBLT_SIDE_2",
+    "texture": "textures/kblt_side_2.rgb",
+    "width": 2,
+    "height": 2,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "LIGHT",
+    "texture": "textures/light.rgb",
+    "width": 256,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.35,
+    "category": "light"
+  },
+  {
+    "name": "LIGHT_SUPPORT",
+    "texture": "textures/light_support.rgb",
+    "width": 8,
+    "height": 2,
+    "metallic": 0.0,
+    "roughness": 0.35,
+    "category": "light"
+  },
+  {
+    "name": "LIGHT_SUPPORT_2",
+    "texture": "textures/light_support_2.rgb",
+    "width": 2,
+    "height": 8,
+    "metallic": 0.0,
+    "roughness": 0.35,
+    "category": "light"
+  },
+  {
+    "name": "MACHINE_SIDES",
+    "texture": "textures/machine_sides.rgb",
+    "width": 1,
+    "height": 1,
+    "metallic": 0.6,
+    "roughness": 0.45,
+    "category": "metal"
+  },
+  {
+    "name": "MACHINE_SIDES_2",
+    "texture": "textures/machine_sides_2.rgb",
+    "width": 1,
+    "height": 1,
+    "metallic": 0.6,
+    "roughness": 0.45,
+    "category": "metal"
+  },
+  {
+    "name": "MAIN_POST",
+    "texture": "textures/main_post.rgb",
+    "width": 128,
+    "height": 256,
+    "metallic": 0.6,
+    "roughness": 0.45,
+    "category": "metal"
+  },
+  {
+    "name": "MAIN_POST_2",
+    "texture": "textures/main_post_2.rgb",
+    "width": 256,
+    "height": 128,
+    "metallic": 0.6,
+    "roughness": 0.45,
+    "category": "metal"
+  },
+  {
+    "name": "MAP_2",
+    "texture": "textures/map_2.rgb",
+    "width": 256,
+    "height": 512,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "NEXUS_SIDE",
+    "texture": "textures/nexus_side.rgb",
+    "width": 2,
+    "height": 16,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "NEXUS_SIGN",
+    "texture": "textures/nexus_sign.rgb",
+    "width": 512,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "NO_SMOKE_SIGN",
+    "texture": "textures/no_smoke_sign.rgb",
+    "width": 256,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "PAVEMENT",
+    "texture": "textures/pavement.rgb",
+    "width": 128,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.7,
+    "category": "pavement"
+  },
+  {
+    "name": "PAVEMENTSIDE_LEFT",
+    "texture": "textures/pavementside_left.rgb",
+    "width": 64,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.7,
+    "category": "pavement"
+  },
+  {
+    "name": "PAVEMENTSIDE_RIGHT",
+    "texture": "textures/pavementside_right.rgb",
+    "width": 64,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.7,
+    "category": "pavement"
+  },
+  {
+    "name": "PAVEMENTSIDE_TOP",
+    "texture": "textures/pavementside_top.rgb",
+    "width": 64,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.7,
+    "category": "pavement"
+  },
+  {
+    "name": "PAVEMENT_16",
+    "texture": "textures/pavement_16.rgb",
+    "width": 32,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.7,
+    "category": "pavement"
+  },
+  {
+    "name": "PAVEMENT_CORNER_1",
+    "texture": "textures/pavement_corner_1.rgb",
+    "width": 128,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.7,
+    "category": "pavement"
+  },
+  {
+    "name": "PAVEMENT_CORNER_2",
+    "texture": "textures/pavement_corner_2.rgb",
+    "width": 128,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.7,
+    "category": "pavement"
+  },
+  {
+    "name": "PAVEMENT_FLIP",
+    "texture": "textures/pavement_flip.rgb",
+    "width": 128,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.7,
+    "category": "pavement"
+  },
+  {
+    "name": "PAVEMENT_TOP",
+    "texture": "textures/pavement_top.rgb",
+    "width": 64,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.7,
+    "category": "pavement"
+  },
+  {
+    "name": "PAVEMENT_TOP_FLIP",
+    "texture": "textures/pavement_top_flip.rgb",
+    "width": 64,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.7,
+    "category": "pavement"
+  },
+  {
+    "name": "PSC_SIGN",
+    "texture": "textures/psc_sign.rgb",
+    "width": 256,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "PSC_SIGN_2",
+    "texture": "textures/psc_sign_2.rgb",
+    "width": 256,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "PURPLE_POST",
+    "texture": "textures/purple_post.rgb",
+    "width": 64,
+    "height": 128,
+    "metallic": 0.6,
+    "roughness": 0.45,
+    "category": "metal"
+  },
+  {
+    "name": "PURPLE_POSTSIDE",
+    "texture": "textures/purple_postside.rgb",
+    "width": 128,
+    "height": 64,
+    "metallic": 0.6,
+    "roughness": 0.45,
+    "category": "metal"
+  },
+  {
+    "name": "RED_POST",
+    "texture": "textures/red_post.rgb",
+    "width": 64,
+    "height": 128,
+    "metallic": 0.6,
+    "roughness": 0.45,
+    "category": "metal"
+  },
+  {
+    "name": "RED_POSTSIDE",
+    "texture": "textures/red_postside.rgb",
+    "width": 64,
+    "height": 64,
+    "metallic": 0.6,
+    "roughness": 0.45,
+    "category": "metal"
+  },
+  {
+    "name": "ROOF_BEAM_1",
+    "texture": "textures/roof_beam_1.rgb",
+    "width": 128,
+    "height": 32,
+    "metallic": 0.0,
+    "roughness": 0.8,
+    "category": "roof"
+  },
+  {
+    "name": "ROOF_BEAM_2",
+    "texture": "textures/roof_beam_2.rgb",
+    "width": 32,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.8,
+    "category": "roof"
+  },
+  {
+    "name": "ROOF_BEAM_3",
+    "texture": "textures/roof_beam_3.rgb",
+    "width": 64,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.8,
+    "category": "roof"
+  },
+  {
+    "name": "ROOF_BEAM_3_TOP",
+    "texture": "textures/roof_beam_3_top.rgb",
+    "width": 128,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.8,
+    "category": "roof"
+  },
+  {
+    "name": "ROOF_BEAM_4",
+    "texture": "textures/roof_beam_4.rgb",
+    "width": 128,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.8,
+    "category": "roof"
+  },
+  {
+    "name": "ROOF_PLANKS",
+    "texture": "textures/roof_planks.rgb",
+    "width": 128,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.8,
+    "category": "roof"
+  },
+  {
+    "name": "ROOF_PLANKS_2",
+    "texture": "textures/roof_planks_2.rgb",
+    "width": 128,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.8,
+    "category": "roof"
+  },
+  {
+    "name": "ROOF_TOP",
+    "texture": "textures/roof_top.rgb",
+    "width": 2,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.8,
+    "category": "roof"
+  },
+  {
+    "name": "ROOF_TOP_LIB",
+    "texture": "textures/roof_top_lib.rgb",
+    "width": 128,
+    "height": 2,
+    "metallic": 0.0,
+    "roughness": 0.8,
+    "category": "roof"
+  },
+  {
+    "name": "RUSTY_MAN",
+    "texture": "textures/rusty_man.rgb",
+    "width": 256,
+    "height": 1024,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "SECURITY_SIGN",
+    "texture": "textures/security_sign.rgb",
+    "width": 128,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "SECURITY_SIGN_2",
+    "texture": "textures/security_sign_2.rgb",
+    "width": 128,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "SHADOW_BRICK",
+    "texture": "textures/shadow_brick.rgb",
+    "width": 128,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.75,
+    "category": "brick"
+  },
+  {
+    "name": "SIGN_1",
+    "texture": "textures/sign_1.rgb",
+    "width": 512,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "SIGN_1_SIDE_1",
+    "texture": "textures/sign_1_side_1.rgb",
+    "width": 16,
+    "height": 512,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "SIGN_1_SIDE_2",
+    "texture": "textures/sign_1_side_2.rgb",
+    "width": 16,
+    "height": 512,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "SIGN_2",
+    "texture": "textures/sign_2.rgb",
+    "width": 512,
+    "height": 512,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "SIGN_2_SIDE",
+    "texture": "textures/sign_2_side.rgb",
+    "width": 512,
+    "height": 16,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "STA_TRAVEL",
+    "texture": "textures/sta_travel.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "STA_TRAVEL_2",
+    "texture": "textures/sta_travel_2.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "STA_TRAVEL_BOTTOM",
+    "texture": "textures/sta_travel_bottom.rgb",
+    "width": 2,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "STA_TRAVEL_BRACKET",
+    "texture": "textures/sta_travel_bracket.rgb",
+    "width": 16,
+    "height": 2,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "STA_TRAVEL_EDGE",
+    "texture": "textures/sta_travel_edge.rgb",
+    "width": 256,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "STEPS_LIBRARY",
+    "texture": "textures/steps_library.rgb",
+    "width": 128,
+    "height": 1024,
+    "metallic": 0.0,
+    "roughness": 0.7,
+    "category": "pavement"
+  },
+  {
+    "name": "STEPS_LIBRARY_TOP",
+    "texture": "textures/steps_library_top.rgb",
+    "width": 256,
+    "height": 1024,
+    "metallic": 0.0,
+    "roughness": 0.7,
+    "category": "pavement"
+  },
+  {
+    "name": "STEP_EDGE",
+    "texture": "textures/step_edge.rgb",
+    "width": 64,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.7,
+    "category": "pavement"
+  },
+  {
+    "name": "STEP_PAVING_1",
+    "texture": "textures/step_paving_1.rgb",
+    "width": 1024,
+    "height": 512,
+    "metallic": 0.0,
+    "roughness": 0.7,
+    "category": "pavement"
+  },
+  {
+    "name": "STEP_WINDOW",
+    "texture": "textures/step_window.rgb",
+    "width": 128,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.7,
+    "category": "pavement"
+  },
+  {
+    "name": "SWEET_MACHINE",
+    "texture": "textures/sweet_machine.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.6,
+    "roughness": 0.45,
+    "category": "metal"
+  },
+  {
+    "name": "TELEPHONE_BACK",
+    "texture": "textures/telephone_back.rgb",
+    "width": 512,
+    "height": 512,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "TELEPHONE_BOTTOM",
+    "texture": "textures/telephone_bottom.rgb",
+    "width": 512,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "TELEPHONE_FILL",
+    "texture": "textures/telephone_fill.rgb",
+    "width": 2,
+    "height": 2,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "TELEPHONE_FRONT",
+    "texture": "textures/telephone_front.rgb",
+    "width": 512,
+    "height": 32,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "TELEPHONE_FRONT_2",
+    "texture": "textures/telephone_front_2.rgb",
+    "width": 512,
+    "height": 16,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "TELEPHONE_FRONT_3",
+    "texture": "textures/telephone_front_3.rgb",
+    "width": 16,
+    "height": 512,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "TELEPHONE_MAIN_SIDE",
+    "texture": "textures/telephone_main_side.rgb",
+    "width": 512,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "TELEPHONE_SIDE_1",
+    "texture": "textures/telephone_side_1.rgb",
+    "width": 32,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "TELEPHONE_SIDE_2",
+    "texture": "textures/telephone_side_2.rgb",
+    "width": 16,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "TELEPHONE_TOP_1",
+    "texture": "textures/telephone_top_1.rgb",
+    "width": 512,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "TELEPHONE_TOP_2",
+    "texture": "textures/telephone_top_2.rgb",
+    "width": 128,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "TICKET_COUNTER_EDGE",
+    "texture": "textures/ticket_counter_edge.rgb",
+    "width": 128,
+    "height": 32,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "TICKET_COUNTER_EDGE_2",
+    "texture": "textures/ticket_counter_edge_2.rgb",
+    "width": 64,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "TICKET_COUNTER_EDGE_3",
+    "texture": "textures/ticket_counter_edge_3.rgb",
+    "width": 64,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "TICKET_COUNTER_TOP",
+    "texture": "textures/ticket_counter_top.rgb",
+    "width": 128,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "TICKET_LEDGE",
+    "texture": "textures/ticket_ledge.rgb",
+    "width": 2,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "TICKET_LEDGE_EDGE",
+    "texture": "textures/ticket_ledge_edge.rgb",
+    "width": 2,
+    "height": 32,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "TICKET_LEDGE_EDGE_2",
+    "texture": "textures/ticket_ledge_edge_2.rgb",
+    "width": 32,
+    "height": 2,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "TOILET_DOOR_TOP",
+    "texture": "textures/toilet_door_top.rgb",
+    "width": 32,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "TOILET_MEN",
+    "texture": "textures/toilet_men.rgb",
+    "width": 128,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "TOILET_WOMEN",
+    "texture": "textures/toilet_women.rgb",
+    "width": 128,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.6,
+    "category": "default"
+  },
+  {
+    "name": "WALL_BRICK_3_4",
+    "texture": "textures/wall_brick_3_4.rgb",
+    "width": 128,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.75,
+    "category": "brick"
+  },
+  {
+    "name": "WALL_BRICK_GAP2_YZ",
+    "texture": "textures/wall_brick_gap2_yz.rgb",
+    "width": 128,
+    "height": 32,
+    "metallic": 0.0,
+    "roughness": 0.75,
+    "category": "brick"
+  },
+  {
+    "name": "WALL_BRICK_GAP_YZ",
+    "texture": "textures/wall_brick_gap_yz.rgb",
+    "width": 128,
+    "height": 32,
+    "metallic": 0.0,
+    "roughness": 0.75,
+    "category": "brick"
+  },
+  {
+    "name": "WALL_BRICK_SEC_SIGN",
+    "texture": "textures/wall_brick_sec_sign.rgb",
+    "width": 256,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.75,
+    "category": "brick"
+  },
+  {
+    "name": "WALL_BRICK_STEPS",
+    "texture": "textures/wall_brick_steps.rgb",
+    "width": 128,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.7,
+    "category": "pavement"
+  },
+  {
+    "name": "WALL_BRICK_STEPS_COVER",
+    "texture": "textures/wall_brick_steps_cover.rgb",
+    "width": 64,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.7,
+    "category": "pavement"
+  },
+  {
+    "name": "WALL_BRICK_STEPS_EDGE",
+    "texture": "textures/wall_brick_steps_edge.rgb",
+    "width": 64,
+    "height": 32,
+    "metallic": 0.0,
+    "roughness": 0.7,
+    "category": "pavement"
+  },
+  {
+    "name": "WALL_BRICK_STEPS_EDGE_2",
+    "texture": "textures/wall_brick_steps_edge_2.rgb",
+    "width": 64,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.7,
+    "category": "pavement"
+  },
+  {
+    "name": "WALL_BRICK_STEPS_TOP",
+    "texture": "textures/wall_brick_steps_top.rgb",
+    "width": 32,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.7,
+    "category": "pavement"
+  },
+  {
+    "name": "WALL_BRICK_USD_YZ",
+    "texture": "textures/wall_brick_usd_yz.rgb",
+    "width": 128,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.75,
+    "category": "brick"
+  },
+  {
+    "name": "WALL_BRICK_XY",
+    "texture": "textures/wall_brick_xy.rgb",
+    "width": 128,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.75,
+    "category": "brick"
+  },
+  {
+    "name": "WALL_BRICK_XY_87WIDTH",
+    "texture": "textures/wall_brick_xy_87width.rgb",
+    "width": 128,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.75,
+    "category": "brick"
+  },
+  {
+    "name": "WALL_BRICK_XY_END",
+    "texture": "textures/wall_brick_xy_end.rgb",
+    "width": 128,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.75,
+    "category": "brick"
+  },
+  {
+    "name": "WALL_BRICK_YZ",
+    "texture": "textures/wall_brick_yz.rgb",
+    "width": 128,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.75,
+    "category": "brick"
+  },
+  {
+    "name": "WALL_BRICK_YZ_END",
+    "texture": "textures/wall_brick_yz_end.rgb",
+    "width": 128,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.75,
+    "category": "brick"
+  },
+  {
+    "name": "WALL_GAP_1",
+    "texture": "textures/wall_gap_1.rgb",
+    "width": 8,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.75,
+    "category": "brick"
+  },
+  {
+    "name": "WINDOWLEDGE_CHANC_FRONT",
+    "texture": "textures/windowledge_chanc_front.rgb",
+    "width": 32,
+    "height": 1024,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOWLEDGE_CHANC_TOP",
+    "texture": "textures/windowledge_chanc_top.rgb",
+    "width": 128,
+    "height": 1024,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOWLEDGE_LIB_A",
+    "texture": "textures/windowledge_lib_a.rgb",
+    "width": 1024,
+    "height": 32,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOWLEDGE_LIB_B",
+    "texture": "textures/windowledge_lib_b.rgb",
+    "width": 1024,
+    "height": 32,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOWLEDGE_LIB_TOP_A",
+    "texture": "textures/windowledge_lib_top_a.rgb",
+    "width": 1024,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOWLEDGE_LIB_TOP_B",
+    "texture": "textures/windowledge_lib_top_b.rgb",
+    "width": 1024,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOWLEDGE_PS_BOTT",
+    "texture": "textures/windowledge_ps_bott.rgb",
+    "width": 128,
+    "height": 1024,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOWLEDGE_PS_FRONT",
+    "texture": "textures/windowledge_ps_front.rgb",
+    "width": 32,
+    "height": 1024,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOWLEDGE_PS_TOP",
+    "texture": "textures/windowledge_ps_top.rgb",
+    "width": 128,
+    "height": 1024,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOWPOST_CHANC_FRONT",
+    "texture": "textures/windowpost_chanc_front.rgb",
+    "width": 1024,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOWPOST_CHANC_LEFT",
+    "texture": "textures/windowpost_chanc_left.rgb",
+    "width": 64,
+    "height": 1024,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOWPOST_CHANC_RIGHT",
+    "texture": "textures/windowpost_chanc_right.rgb",
+    "width": 64,
+    "height": 1024,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOWPOST_LIB_FRONT",
+    "texture": "textures/windowpost_lib_front.rgb",
+    "width": 128,
+    "height": 512,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOWPOST_LIB_LEFT",
+    "texture": "textures/windowpost_lib_left.rgb",
+    "width": 512,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOWPOST_LIB_RIGHT",
+    "texture": "textures/windowpost_lib_right.rgb",
+    "width": 512,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOWPOST_PHYSSCI_FRONT",
+    "texture": "textures/windowpost_physsci_front.rgb",
+    "width": 512,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOWPOST_PHYSSCI_LEFT",
+    "texture": "textures/windowpost_physsci_left.rgb",
+    "width": 64,
+    "height": 512,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOWPOST_PHYSSCI_RIGHT",
+    "texture": "textures/windowpost_physsci_right.rgb",
+    "width": 64,
+    "height": 512,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_1",
+    "texture": "textures/window_1.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_10",
+    "texture": "textures/window_10.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_11",
+    "texture": "textures/window_11.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_12",
+    "texture": "textures/window_12.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_13",
+    "texture": "textures/window_13.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_14",
+    "texture": "textures/window_14.rgb",
+    "width": 256,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_14B",
+    "texture": "textures/window_14b.rgb",
+    "width": 256,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_15",
+    "texture": "textures/window_15.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_16",
+    "texture": "textures/window_16.rgb",
+    "width": 128,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_17",
+    "texture": "textures/window_17.rgb",
+    "width": 128,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_1B",
+    "texture": "textures/window_1b.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_2",
+    "texture": "textures/window_2.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_2B",
+    "texture": "textures/window_2b.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_2C",
+    "texture": "textures/window_2c.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_2D",
+    "texture": "textures/window_2d.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_2E",
+    "texture": "textures/window_2e.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_2US",
+    "texture": "textures/window_2us.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_2USB",
+    "texture": "textures/window_2usb.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_3",
+    "texture": "textures/window_3.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_3B",
+    "texture": "textures/window_3b.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_4",
+    "texture": "textures/window_4.rgb",
+    "width": 128,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_5",
+    "texture": "textures/window_5.rgb",
+    "width": 128,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_6",
+    "texture": "textures/window_6.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_7",
+    "texture": "textures/window_7.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_8",
+    "texture": "textures/window_8.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_9",
+    "texture": "textures/window_9.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_LEDGE_END_1",
+    "texture": "textures/window_ledge_end_1.rgb",
+    "width": 32,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_LEDGE_END_2",
+    "texture": "textures/window_ledge_end_2.rgb",
+    "width": 64,
+    "height": 64,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_LIB_1",
+    "texture": "textures/window_lib_1.rgb",
+    "width": 256,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_LIB_1A",
+    "texture": "textures/window_lib_1a.rgb",
+    "width": 256,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_LIB_1B",
+    "texture": "textures/window_lib_1b.rgb",
+    "width": 256,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_LIB_1C",
+    "texture": "textures/window_lib_1c.rgb",
+    "width": 256,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_LIB_DOOR_1",
+    "texture": "textures/window_lib_door_1.rgb",
+    "width": 256,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_LIB_DOOR_2",
+    "texture": "textures/window_lib_door_2.rgb",
+    "width": 512,
+    "height": 256,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_LIB_LONG",
+    "texture": "textures/window_lib_long.rgb",
+    "width": 256,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_LIB_US_A",
+    "texture": "textures/window_lib_us_a.rgb",
+    "width": 256,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  },
+  {
+    "name": "WINDOW_LIB_US_B",
+    "texture": "textures/window_lib_us_b.rgb",
+    "width": 256,
+    "height": 128,
+    "metallic": 0.0,
+    "roughness": 0.15,
+    "category": "window"
+  }
+]
