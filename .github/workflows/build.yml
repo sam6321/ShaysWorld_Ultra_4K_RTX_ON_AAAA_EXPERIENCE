@@ -23,8 +23,16 @@ jobs:
         uses: humbletim/setup-vulkan-sdk@v1.2.1
         with:
           vulkan-query-version: 1.3.296.0
-          vulkan-components: Vulkan-Headers, Vulkan-Loader, Glslang
+          # Glslang ENABLE_OPT requires SPIRV-Tools (+ Headers) at configure time.
+          vulkan-components: Vulkan-Headers, Vulkan-Loader, Glslang, SPIRV-Tools, SPIRV-Headers
           vulkan-use-cache: true
+
+      - name: Verify glslangValidator
+        shell: pwsh
+        run: |
+          Write-Host "VULKAN_SDK=$env:VULKAN_SDK"
+          Get-Command glslangValidator -ErrorAction Stop
+          glslangValidator -v
 
       - name: Configure
         shell: pwsh
