@@ -62,6 +62,8 @@ target_include_directories(imgui_lib PUBLIC
   ${imgui_SOURCE_DIR}
   ${imgui_SOURCE_DIR}/backends)
 target_link_libraries(imgui_lib PUBLIC glfw Vulkan::Vulkan)
+# Vulkan-only: stop GLFW headers from requiring GL/gl.h (missing on minimal Linux).
+target_compile_definitions(imgui_lib PUBLIC GLFW_INCLUDE_NONE)
 
 # Compile GLSL -> SPIR-V next to sources and into the build output dir.
 find_program(GLSLANG_VALIDATOR glslangValidator HINTS "$ENV{VULKAN_SDK}/Bin")

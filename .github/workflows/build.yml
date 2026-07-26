@@ -83,6 +83,7 @@ jobs:
             build-essential cmake ninja-build pkg-config \
             libx11-dev libxi-dev libxcursor-dev libxinerama-dev libxrandr-dev \
             libxkbcommon-dev libwayland-dev wayland-protocols \
+            libgl1-mesa-dev \
             alsa-utils
 
       - name: Install Vulkan SDK
