@@ -1,5 +1,11 @@
 # Shays World VK
 
+the ai sloppatron 5000 got some game i'll give it that. hats off to my boi grok4.5 for this AAAA slop
+
+![Follow your dreams](./image.png)
+
+## AI Slop
+
 A greenfield **C++20 + Vulkan** rewrite of Shay Leary’s 2005 Murdoch University campus tour — faithful geometry, modern renderer, and a ridiculous Performance preset.
 
 | Preset | Goal |
